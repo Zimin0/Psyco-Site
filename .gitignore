@@ -1,0 +1,12 @@
+ToDo.txt
+*.log
+*.pot
+*.pyc
+*cpython*
+__pycache__/
+media
+trash/
+*trash*
+media/
+*.pyc
+psy_venv/
