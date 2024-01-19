@@ -19,3 +19,8 @@ def cooperation(request):
     """ Сотрудничество. """
     context = {}
     return render(request, 'home/cooperation.html', context)
+
+def contacts(request):
+    """ Контакты. """
+    context = {}
+    return render(request, 'home/contacts.html', context)
