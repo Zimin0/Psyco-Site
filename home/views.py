@@ -1,8 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from settings.models import Setting
+from settings.upload_info import get_personal_data_from_db
 
 def home(request):
     """ Главная страница. """
     context = {}
+    context.update(get_personal_data_from_db())
     return render(request, 'home/home.html', context)
 
 def about(request):

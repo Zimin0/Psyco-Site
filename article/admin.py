@@ -4,4 +4,4 @@ from article.models import Article
 
 @admin.register(Article)
 class ArticleModel(admin.ModelAdmin):
-    list_display = ['id', 'title']
+    list_display = ['__str__', 'id']
