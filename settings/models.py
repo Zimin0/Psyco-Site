@@ -8,3 +8,6 @@ class Setting(models.Model):
     class Meta:
         verbose_name = 'Настройка'
         verbose_name_plural = 'Настройки'
+
+    def __str__(self):
+        return f'{self.name}'
