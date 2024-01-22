@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ article.title }}</title>
+</head>
+<body>
+    <h1>{{ article.title }}</h1>
+    <img src="{{ article.pre_image.url }}" alt="Preview">
+    <p>{{ article.pre_text }}</p>
+    <div>
+        {{ article.text|safe }}
+    </div>
+</body>
+</html>
