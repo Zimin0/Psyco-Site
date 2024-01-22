@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'workdirections',
     'ckeditor',
     'ckeditor_uploader',
-
+    'settings'
 ]
 
 MIDDLEWARE = [
