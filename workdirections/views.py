@@ -1,19 +1,8 @@
 from django.shortcuts import render
-from django.http import Http404
+from settings.upload_info import get_personal_data_from_db
 
-def one_direction(request, template_slug):
+def one_direction(request, index):
     """ Отдельные страницы направлений.  """
     context = {}
-    directions = {
-        'slug1': '...',
-        'slug2': '...',
-    }
-    page_template = directions.get(template_slug, None)
-    if not page_template:
-        raise  Http404("Такого направления нет!")
-    return render(request, 'workdirections/one_directions.html', context)
-
-def directions(request):
-    """ Страница всех направлений. """
-    context = {}
-    return render(request, 'workdirections/work_directions.html', context)
+    context.update(get_personal_data_from_db())
+    return render(request, f'workdirections/direction{index}.html', context)

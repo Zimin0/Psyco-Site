@@ -47,11 +47,11 @@ INSTALLED_APPS = [
     'home',
     'article',
     'services',
-    'workdirections',
     'ckeditor',
     'ckeditor_uploader',
     'settings',
     'feedbacks',
+    'workdirections'
 ]
 
 MIDDLEWARE = [
