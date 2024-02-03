@@ -12,5 +12,8 @@ class Article(models.Model):
         verbose_name_plural = 'Статьи'
 
     def __str__(self):
-        new_title = " ".join(self.title.split()[:10]) + '...'
+        return self.get_cropped_title()
+    
+    def get_cropped_title(self):
+        new_title = " ".join(self.title.split()[:5]) + '...'
         return f'{new_title}'
