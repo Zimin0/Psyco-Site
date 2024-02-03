@@ -11,5 +11,7 @@ def get_personal_data_from_db() -> dict:
     return {
         'PHONE_NUMBER': get_object_or_404(Setting, slug='PHONE_NUMBER').value,
         'EMAIL': get_object_or_404(Setting, slug='EMAIL').value,
-        'ADDRESS':get_object_or_404(Setting, slug='ADDRESS').value
+        'ADDRESS':get_object_or_404(Setting, slug='ADDRESS').value,
+        'WHATSAPP_LINK': get_object_or_404(Setting, slug='WHATSAPP_LINK').value,
+        'TELEGRAM_LINK': get_object_or_404(Setting, slug='TELEGRAM_LINK').value,
     }
