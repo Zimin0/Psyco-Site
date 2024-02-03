@@ -129,7 +129,7 @@
                         <div class="custom-expanded u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-hover-feature u-shape-rectangle u-group-1">
                            <div class="u-container-layout u-container-layout-2">
                               <h3 class="u-align-left u-text u-text-3">
-                                 <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-none u-text-black u-btn-1" data-href="home.html">{{ service.title }}</a>
+                                 <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-none u-text-black u-btn-1" data-href="{% url 'services:service' service.id %}">{{ service.title }}</a>
                               </h3>
                            </div>
                         </div>
@@ -138,53 +138,6 @@
                      </div>
                   </div>
                 {% endfor %}
-
-                  <!-- <div class="u-container-style u-list-item u-repeater-item">
-                     <div class="u-container-layout u-similar-container u-container-layout-3">
-                        <p class="u-align-right-md u-align-right-sm u-align-right-xs u-text u-text-default u-text-5">3000Р</p>
-                        <div class="custom-expanded u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-hover-feature u-shape-rectangle u-group-2" data-href="home.html">
-                           <div class="u-container-layout u-container-layout-4">
-                              <h3 class="u-align-left u-text u-text-6"><b>Индивидуальная
-                                 консультация (50 мин)</b>
-                              </h3>
-                           </div>
-                        </div>
-                        <p class="u-text u-text-default u-text-7"> На индивидуальной консультации очно или онлайн мы
-                           сможем с вами обсудить все аспекты, которые волнуют вас и мешают полноценно
-                           жить, а также применить психологические техники для решения вашего вопроса.
-                        </p>
-                     </div>
-                  </div>
-
-                  <div class="u-container-style u-list-item u-repeater-item">
-                     <div class="u-container-layout u-similar-container u-container-layout-5">
-                        <p class="u-align-right-md u-align-right-sm u-align-right-xs u-text u-text-default u-text-8"> 3500Р</p>
-                        <div class="custom-expanded u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-hover-feature u-shape-rectangle u-group-3" data-href="home.html">
-                           <div class="u-container-layout u-container-layout-6">
-                              <h3 class="u-align-left u-text u-text-9"> Краткосрочная психотерапия (50 мин)&nbsp;</h3>
-                           </div>
-                        </div>
-                        <p class="u-text u-text-default u-text-10"> Интенсивная терапия при кризисных состояниях
-                           с применением техник когнитивно-поведенческой терапии.&nbsp;
-                        </p>
-                     </div>
-                  </div>
-
-                  <div class="u-container-style u-list-item u-repeater-item">
-                     <div class="u-container-layout u-similar-container u-container-layout-7">
-                        <p class="u-align-right-md u-align-right-sm u-align-right-xs u-text u-text-default u-text-11"> 5000Р</p>
-                        <div class="custom-expanded u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-shape-rectangle u-group-4">
-                           <div class="u-container-layout u-container-layout-8">
-                              <h3 class="u-align-left u-hover-feature u-text u-text-12">
-                                 <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-2" data-href="home.html"> Медиация</a>
-                              </h3>
-                           </div>
-                        </div>
-                        <p class="u-text u-text-default u-text-13"> Помогу понять как наладить межличностные
-                           отношения и уладить конфликты.
-                        </p>
-                     </div>
-                  </div> -->
 
                </div>
             </div>

@@ -124,7 +124,7 @@
                <div class="u-container-layout u-container-layout-1">
                   <h4 class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-black u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"> Психолог, Медиатор, Коуч</h4>
                   <h1 class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-black u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750"> Васильева Анастасия Викторовна</h1>
-                  <a href="{% url 'home:home' %}" class="u-active-palette-4-light-2 u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-animation-direction="">Связаться</a>
+                  <a href="{% url 'feedbacks:feedback' %}" class="u-active-palette-4-light-2 u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-animation-direction="">Связаться</a>
                </div> 
             </div>
             <img class="custom-expanded u-image u-image-round u-radius u-image-1" src="{% static 'home/images/IMG07592_.jpg' %}" alt="" data-image-width="4000" data-image-height="6000" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
@@ -197,7 +197,7 @@
                   </div>
                </div>
             </div>
-            <a href="https://nicepage.com/website-templates" class="u-active-palette-4-light-1 u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-radius u-btn-5">Подробнее</a>
+            <a href="{% url 'services:services' %}" class="u-active-palette-4-light-1 u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-radius u-btn-5">Подробнее</a>
          </div>
       </section>
       <section class="u-clearfix u-custom-color-1 u-hidden u-section-3" id="carousel_bae4">
@@ -244,9 +244,9 @@
       </section>
       <section class="u-clearfix u-custom-color-3 u-section-4" id="sec-95ef">
          <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="https://nicepage.com/joomla-templates" class="u-active-palette-4-light-1 u-align-center-sm u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-4-dark-1 u-radius u-text-black u-btn-1"> Записаться на консультацию</a>
-            <a href="https://nicepage.com/joomla-templates" class="u-active-palette-4-light-1 u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-dark-1 u-radius u-text-black u-btn-2"> Узнать цены</a>
-            <a href="https://nicepage.com/joomla-templates" class="u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-dark-1 u-radius u-text-black u-btn-3">бесплатная online консультация</a>
+            <a href="{% url 'feedbacks:feedback' %}" class="u-active-palette-4-light-1 u-align-center-sm u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-4-dark-1 u-radius u-text-black u-btn-1"> Записаться на консультацию</a>
+            <a href="{% url 'services:services' %}" class="u-active-palette-4-light-1 u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-dark-1 u-radius u-text-black u-btn-2"> Узнать цены</a>
+            <a href="{% url 'services:services' %}" class="u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-dark-1 u-radius u-text-black u-btn-3">бесплатная online консультация</a>
          </div>
       </section>
       <section class="u-align-center u-clearfix u-grey-5 u-section-5" id="sec-7b80">
@@ -276,7 +276,7 @@
                   Записывайтесь – я здесь, чтобы помочь вам!
                </li>
             </ul>
-            <a href="https://nicepage.com/k/dog-website-templates" class="u-active-palette-4-light-1 u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-radius u-btn-1">Подробнее</a>
+            <a href="{% url 'home:about' %}" class="u-active-palette-4-light-1 u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-radius u-btn-1">Подробнее</a>
          </div>
       </section>
       <section class="u-align-center u-clearfix u-custom-color-3 u-section-6" id="sec-f914">
@@ -314,7 +314,7 @@
                <li><b><b>Конфликты в межличностных отношениях&nbsp;</b></b>
                </li>
             </ul>
-            <a href="https://nicepage.com/website-builder" class="u-active-palette-4-light-2 u-align-center-sm u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-4-light-1 u-radius u-btn-1">Узнать больше</a>
+            <a href="{% url 'home:work_directions' %}" class="u-active-palette-4-light-2 u-align-center-sm u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-4-light-1 u-radius u-btn-1">Узнать больше</a>
          </div>
       </section>
       <section class="u-clearfix u-grey-5 u-section-7" id="sec-5a67">
