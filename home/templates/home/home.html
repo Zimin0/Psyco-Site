@@ -63,12 +63,13 @@
                      </span>
                      &nbsp;{{ PHONE_NUMBER }}
                   </a> 
-                  <span class="u-file-icon u-icon u-text-white u-icon-3" data-href="kremlin.ru"><img src="{% static 'home/images/2111710-764f06c8.png' %}" alt=""></span><span class="u-file-icon u-icon u-text-white u-icon-4" data-href="kremlin.ru"><img src="{% static 'home/images/220802-6d64fdfc.png' %}" alt=""></span> 
+                  <span class="u-file-icon u-icon u-text-white u-icon-3" data-href="kremlin.ru"><img src="{% static 'home/images/2111710-764f06c8.png' %}" alt=""></span>
+                  <span class="u-file-icon u-icon u-text-white u-icon-4" data-href="kremlin.ru"><img src="{% static 'home/images/220802-6d64fdfc.png' %}" alt=""></span> 
                </div>
             </div>
             <div class="u-custom-color-5 u-section-row u-section-row-2" id="sec-6d24">
                <div class="u-clearfix u-sheet u-sheet-2">
-                  <span class="u-file-icon u-hidden-md u-hidden-sm u-hidden-xs u-icon u-text-black u-icon-5" data-href="home.html"><img src="{% static 'home/images/w256h2561380453883Butterfly256x25632-4de78fd4.png' %}" alt=""></span>
+                  <span class="u-file-icon u-hidden-md u-hidden-sm u-hidden-xs u-icon u-text-black u-icon-5" data-href="{% url 'home:home' %}"><img src="{% static 'home/images/w256h2561380453883Butterfly256x25632-4de78fd4.png' %}" alt=""></span>
                   <nav class="u-align-center u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="SM"> 
                      <div class="menu-collapse" style="font-size: 1.25rem; letter-spacing: 0px; font-weight: 700;">
                         <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 8px 0px; font-size: calc(1em + 16px);">
@@ -123,7 +124,7 @@
                <div class="u-container-layout u-container-layout-1">
                   <h4 class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-black u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"> Психолог, Медиатор, Коуч</h4>
                   <h1 class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-black u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750"> Васильева Анастасия Викторовна</h1>
-                  <a href="home.html" class="u-active-palette-4-light-2 u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-animation-direction="">Связаться</a>
+                  <a href="{% url 'home:home' %}" class="u-active-palette-4-light-2 u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-4-dark-1 u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-animation-direction="">Связаться</a>
                </div> 
             </div>
             <img class="custom-expanded u-image u-image-round u-radius u-image-1" src="{% static 'home/images/IMG07592_.jpg' %}" alt="" data-image-width="4000" data-image-height="6000" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
@@ -141,7 +142,7 @@
                   <div class="u-container-style u-hover-feature u-list-item u-repeater-item u-list-item-1">
                      <div class="u-container-layout u-similar-container u-container-layout-2">
                         <h3 class="u-align-center u-hover-feature u-text u-text-default u-text-2">
-                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-hover-none u-none u-text-black u-btn-1" data-href="home.html" href="home.html"> Индивидуальная консультация</a> 
+                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-hover-none u-none u-text-black u-btn-1" data-href="{% url 'home:home' %}" href="{% url 'home:home' %}"> Индивидуальная консультация</a> 
                         </h3>
                         <p class="u-align-center u-text u-text-default u-text-3"> В рамках индивидуальной консультации предоставлю
                            конфиденциальную психологическую поддержку, помогу разобраться с
@@ -155,7 +156,7 @@
                   <div class="u-container-style u-list-item u-repeater-item">
                      <div class="u-container-layout u-similar-container u-container-layout-3">
                         <h3 class="u-align-center u-hover-feature u-text u-text-default u-text-4">
-                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-hover-none u-none u-text-black u-btn-2" data-href="home.html" href="home.html"> Краткосрочная психотерапия дляразрешения конкретных проблем</a>
+                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-hover-none u-none u-text-black u-btn-2" data-href="{% url 'home:home' %}" href="{% url 'home:home' %}"> Краткосрочная психотерапия дляразрешения конкретных проблем</a>
                         </h3>
                         <p class="u-align-center u-text u-text-default u-text-5"> Краткосрочная
                            психотерапия направлена на решение конкретных целей в относительно короткий
@@ -169,7 +170,7 @@
                   <div class="u-container-style u-list-item u-repeater-item">
                      <div class="u-container-layout u-similar-container u-container-layout-4">
                         <h3 class="u-align-center u-hover-feature u-text u-text-default u-text-6">
-                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-hover-none u-none u-text-black u-btn-3" data-href="home.html" href="home.html"> Медиация: разрешениеконфликтов и споров.</a>
+                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-feature u-hover-none u-none u-text-black u-btn-3" data-href="{% url 'home:home' %}" href="{% url 'home:home' %}"> Медиация: разрешениеконфликтов и споров.</a>
                         </h3>
                         <p class="u-align-center u-text u-text-default u-text-7"> Медиация —
                            это процесс разрешения конфликтов, в ходе которого я как посредник (медиатор)
@@ -182,7 +183,7 @@
                   <div class="u-container-style u-list-item u-repeater-item">
                      <div class="u-container-layout u-similar-container u-container-layout-5">
                         <h3 class="u-align-center u-hover-feature u-text u-text-default u-text-8">
-                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-4" data-href="home.html"><b>Личное наставничество и коучинг.</b>
+                           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-4" data-href="{% url 'home:home' %}"><b>Личное наставничество и коучинг.</b>
                            </a>
                         </h3>
                         <p class="u-align-center u-text u-text-default u-text-9"> Коучинг — это
