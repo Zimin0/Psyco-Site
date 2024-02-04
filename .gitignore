@@ -10,3 +10,8 @@ trash/
 media/
 *.pyc
 psy_venv/
+db.sqlite3
+static
+bin
+*env*
+gunicorn_config.py
