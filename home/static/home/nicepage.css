@@ -7551,7 +7551,6 @@ ul.u-text li:last-child {
 }
 .u-text-default {
   display: table;
-  align-self: flex-start;
   width: -webkit-fit-content;
   width: fit-content;
   width: -moz-fit-content;
